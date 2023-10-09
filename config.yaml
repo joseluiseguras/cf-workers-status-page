@@ -15,25 +15,139 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
+   - id: Estrucasas
+    name: www.estrucasas.com
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://estrucasas.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: Horizonte-ARC
+    name: www.horizontearc.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://horizontearc.com/'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: CClogisticsCR
+    name: www.cclogisticscr.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.cclogisticscr.com/
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: Fertynic
+    name: www.fertinyc.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.fertinyc.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Muebles-Montero
+    name: www.mueblesmonterocr.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.mueblesmonterocr.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: ODS-UNED
+    name: www.odsuned.uned.ac.cr
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://odsuned.uned.ac.cr/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Cryptotourscr
+    name: www.cryptotourscr.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'hhttps://cryptotourscr.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: TsuruInvest
+    name: www.tsuruinvest.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://tsuruinvest.com/ '
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Niehaus-Abogados
+    name: www.niehausabogados.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://niehausabogados.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Camara-de-pineros-Unidos
+    name: www.camaradepinerosunidos.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://camaradepinerosunidos.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Ecoconsultor
+    name: www.ecoconsultor.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://ecoconsultor.com/ '
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: NalaKids
+    name: www.nalakidscr.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://nalakidscr.com/ '
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Coelme
+    name: www.coelme.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://coelme.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Inversso
+    name: www.inversso.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://inversso.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Craving-English
+    name: www.cravingenglish.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.cravingenglish.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Craving-Spanish
+    name: www.cravingspanish.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://cravingspanish.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+- id: Azul-Marino-CR
+    name: www.azulmarinocr.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://azulmarinocr.com/'
+    method: GET
+    expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
