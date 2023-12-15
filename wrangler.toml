@@ -14,6 +14,6 @@ entry-point = "./"
 
 # uncomment and adjust following if you are not using GitHub Actions , preview_id=""
 # [env.production]
-kv-namespaces = [{binding="cf-workers-status-page-KV_STATUS_PAGE", id="a63f95ac8ef2477b8ae99b196c67729c"}]
+# kv-namespaces = [{binding="cf-workers-status-page-KV_STATUS_PAGE", id="a63f95ac8ef2477b8ae99b196c67729c"}]
 # zone_id="xxx"
 # route="xxx"
